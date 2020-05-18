@@ -13,7 +13,7 @@
         <div class="container mx-auto flex flex-col md:flex-row items-center justify-between px-4 py-6">
             <ul class="flex flex-col md:flex-row items-center">
                 <li>
-                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="40.000000pt" height="43.000000pt" viewBox="0 0 1157.000000 1280.000000" preserveAspectRatio="xMidYMid meet">
+                    <a href="{{ route('movies.index')}}"><svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="40.000000pt" height="43.000000pt" viewBox="0 0 1157.000000 1280.000000" preserveAspectRatio="xMidYMid meet">
                         <metadata>
                         Created by potrace 1.15, written by Peter Selinger 2001-2017
                         </metadata>
@@ -76,7 +76,7 @@
                     </a>
                 </li>
                 <li class="md:ml-16 md:ml-4 mt-3 md:mt-0">
-                    <a href="#" class="hover:text-gray-300">Movies</a>
+                    <a href="{{route('movies.index')}}" class="hover:text-gray-300">Movies</a>
                 </li>
                 <li class="md:ml-6 md:ml-4 mt-3 md:mt-0">
                     <a href="#" class="hover:text-gray-300">Tv Shows</a>
